@@ -1,0 +1,173 @@
+        body
+		{
+			margin: 0px;
+			background-image: url("./images/back1.jpg");
+			width: 100%;
+		}
+		.top
+		{
+			background-color: black;
+			height: 4vw;
+			color:white;
+			font-family: cursive;
+			text-align: center;
+			font-size: 3vw;
+			margin:0px;
+			width:100%;
+			position: fixed;
+			top:0px;
+			z-index: 10;
+		}
+		div
+		{
+			margin-top:5vw;
+		}
+		.h
+		{
+			display:inline;
+			padding:0.2vw;
+			font-family: cursive;
+			font-size: 3vw;
+			font-weight: normal;
+			margin: 2px;
+			transition: color 1s;
+			background-color: black;
+			color: white;
+
+		}
+		.fk
+		{
+			background-color: black;
+			border-radius: 14.28vw;
+			color: white;
+			text-align: center;
+			width: 14.28vw;
+			font-size: 2.29vw;
+			font-family: cursive;
+			font-weight: normal;
+			margin:0px;
+			animation-name: drive;
+			animation-duration: 8s;
+			animation-fill-mode: both;
+			animation-iteration-count: infinite;
+			animation-timing-function: linear;
+		}
+		.k
+		{
+			background-color:black;
+			border-radius: 14.28vw;
+			color: white;
+			text-align: center;
+			width: 14.28vw;
+			font-size: 2.29vw;
+			font-family: cursive;
+			font-weight: normal;
+			margin:0px;
+			animation-name: drives;
+            animation-duration: 8s;
+            animation-fill-mode: both;
+            animation-timing-function: linear;
+			animation-iteration-count: infinite;
+
+		}
+		
+		
+		@keyframes drives
+		{
+			0%{transform: translate(83.3vw,22.9vw);}
+			50%{transform: translate(0px,22.9vw);}
+			100%{transform: translate(83.3vw,22.9vw);}
+		}
+		
+		@keyframes drive
+		{
+			0%{transform: translate(0vw,26.04vw);}
+			50%{transform: translate(83.3vw,26.04vw);}
+			100%{transform: translate(0vw,26.04vw);}
+		}
+		
+		.at1
+		{
+			transform:rotate(10deg);
+			height:26.04vw;
+			width:26.04vw;
+			position: relative;
+			z-index: 0;
+			border-color: black;
+			border-style: solid;
+			border-width: thin;
+			margin-left: 6.25vw;
+		}
+		.at2
+		{
+			transform:rotate(-15deg);
+			height:26.04vw;
+			width:26.04vw;
+			position: relative;
+			z-index: 0;
+			border-color: black;
+			border-style: solid;
+			border-width: thin;
+
+		}
+		
+		.at3
+		{
+			transform:rotate(20deg);
+			height:26.04vw;
+			width:26.04vw;
+			position: relative;
+			z-index: 0;
+			border-color: black;
+			border-style: solid;
+			border-width: thin;
+        }
+		.bottom
+		{
+			height:30vw;
+			width:70vw;
+			margin:5.208vw auto;
+			font-size: 3vw;
+			font-family: cursive;
+			color: white;
+
+		}
+		
+	    a:link
+	    {
+	    	color: white;
+	    	text-decoration: none;
+	    }
+	    .acad
+	    {
+	    	display: block;
+	    	margin: 5vh auto;
+	    	width: 75vw;
+	    	height: 50vh;
+	    }
+	    .contimage
+	    {
+	    	margin: 30px 0px 100px 5.28vw;
+	    	border-color:black;
+	    	border-style: solid;
+	    	border-width: thin;
+	    	width: 18.88vh;
+	    	height: 18.88vh;
+	    }
+	    #first
+	    {
+	    	background-color: white;
+	    }
+	    .hob
+	    {
+	    	margin: 7.8vw 0px 50px 9vw;
+	    }
+	    .imghob
+	    {
+	    	width: 19.27vh;
+	    	height:24.27vh;
+	    }
+	    .bott
+	    {
+	    	margin: 7.8vw 0px 50px 2vw;
+	    }
